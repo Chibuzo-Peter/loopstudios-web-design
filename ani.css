@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+p{
+    color: #fff;
+    font-size: 2em;
+    padding: 10px;
+    border: 2px solid red;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    transition:transform 2s 0.5s;
+    height: 100px;
+    width: 100px;
+}
+
+p:hover{
+    /* transform:rotate();
+   transform:skew();
+   transform:scale();
+   transform:matrix(); */
+   transform:translate(0, 200px);
+
+   transform:translate(X, Y);
+   transform: translateX(200px);
+   transform: translateY(200px);
+   transform: scale(2);
+   transform: skew(30deg);
+
+}
